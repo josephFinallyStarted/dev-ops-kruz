@@ -1,5 +1,5 @@
 import unittest
-from scitani import scitani
+from calculator import scitani
 
 class TestScitani(unittest.TestCase):
     def test_spravne(self):

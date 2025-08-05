@@ -19,5 +19,5 @@ jobs:
         run: |
           python3 -m unittest discover
       - name: Create zip package
-        run: zip balicek.zip scitani.py
+        run: zip balicek.zip calculator.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
